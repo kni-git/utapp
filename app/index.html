@@ -116,7 +116,7 @@ $("a").live("vmouseup", function() {
 
     <div data-collapsed="true" data-role="collapsible">
         	<h3>Campus Landscapes</h3>
-            <p>Demonstration landscapes  have been added to the campus core and showcase a variety of landscapes from  around the world.  You may click on each landscape to bring up directions to it.</p>
+            <p>Demonstration landscapes have been added to the campus core and showcase a variety of landscapes from around the world. You may click on each landscape to bring up directions to it.</p>
     
 
 		 <ul data-role="listview" data-inset="true" data-theme="a">
@@ -196,21 +196,55 @@ $("a").live("vmouseup", function() {
 		<div id="africa_landscape_map_info" class="map_info" style="display:none;">
 			<img src="./img/managed_areas/africa/info.png" width="150px"/>	
 			<p>The ecology of this African inspired garden comes from a wide variety of environments. Ranging from desert to tropics and everything in between (savannahs, jungles), the flora of this continent is incomparable.</p>
+			<p></P>
+			<p>Flora: Aloe (Aloe ciliaris, arboresencs, saponaria, barbadensis), Birds of Paradise (Strelitzia reginae), Lily of the Nile (Agapanthus africanus, umbellatus) .</p>
 		</div>
     	<div id="africa_landscape_map" class="map_container"></div> 
 	</div>	
 </div>
-<div data-role="page" data-theme="a" id="arboretum_landscape">
+<div data-role="page" data-theme="a" id="mediterranean_landscape">
 	<div data-role="header">
-		<h1 id="map_title">Map - UCF Arboretum</h1>
+		<h1 id="map_title">Map - Mediterranean Landscape</h1>
 	</div>
 	<div data-role="content" id="containerWrapper">	
-		<div id="arboretum_landscape_map_info" class="map_info" style="display:none;">
-			<img src="./img/managed_areas/arboretum/info.png" width="150px"/>	
-			<p>Since its founding 25 years ago, the UCF Arboretum has been a unique feature of the University's campus. With many species of animal and plant life, the 72-acre Arboretum is a long-standing symbol of UCF's dedication to educating students and the community about nature while protecting our environment. Part of UCF's responsibility for maintaining the Arboretum includes partnering with local and state agencies to ensure we provide proper maintenance.</p>
+		<div id="mediterranean_map_info" class="map_info" style="display:none;">
+			<img src="./img/managed_areas/mediterranean/info.png" width="150px"/>
+			<p>A temperate to sub-tropical biome, vegetation types range from forests to woodlands, savannas, shrublands, and grasslands. "Mosaic" landscapes are common. Much of the woody vegetation in Mediterranean-climate regions is sclerophyll, which means 'hard-leaved' in Greek. Mediterranean eco-regions are semi-arid, and often have poor soils, so they are vulnerable to degradation by human land-use. These regions are also some of the most endangered on the planet, and many eco-regions have suffered tremendous degradation and habitat loss through logging, overgrazing, conversion to agriculture, urbanization, and introduction of exotic species. Many native plants and animals have become extinct or endangered with in these systems. Many of the plants are pyrophytes, or fire-loving, adapted or even depending on fire for reproduction. </p>
+			<p></p>
+			<p>Flora: Herbs (Rosmarinus officinalis, Origanum vulgare, Thymus vulgaris), Fig Tree (Ficus carica), Olive (Olea europaea, Bucida buceras), Grape (Vitis), Dwarf Pomegranate (Punica granatum nana).</p>
 		</div>
-    	<div id="arboretum_landscape_map" class="map_container"></div> 
+    	<div id="mediterranean_map" class="map_container"></div> 
 	</div>	
+</div>
+<div data-role="page" data-theme="a" id="cypress_dome">
+	<div data-role="header">
+		<h1 id="map_title">Map - Cypress Dome</h1>
+	</div>
+	<div data-role="content" id="containerWrapper">	
+		<div id="cypress_dome_map_info" class="map_info" style="display:none;">
+			<img src="./img/managed_areas/cypress-dome/info.png" width="150px"/>
+			<div class="infoWindow">
+			<p>Forested wetlands (swamps) that are dominated by bald cypress and/or pond cypress are called cypress domes. Generally these are shallow circular depression wetlands with a vaulted canopy because smaller trees grow in the shallower waters at the outer edge with the taller, older trees growing in the center. Pond cypress trees usually dominates these dome swamps in pine flatwoods with mucky, organic soils. Swamp gum, red maple, sweetbay (magnolia), dahoon holly, swamp bay and slash pine may also be found in the canopy.</p> 
+			<p></p>
+			<p>Fauna: Moccasin, Swallow Tail Kite, Pileated Woodpecker, Cottonmouth, Salamander.</p>
+			</div>			
+		</div>
+    	<div id="cypress_dome_map" class="map_container"></div> 
+	</div>	
+</div>
+<div data-role="page" data-theme="a" id="reflections_landscape">
+	<div data-role="header">
+		<h1 id="map_title">Map - Reflections</h1>
+	</div>
+	<div data-role="content" id="containerWrapper">	
+		<div id="reflections_map_info" class="map_info" style="display:none;">
+			<img src="./img/managed_areas/reflections-pond/info.png" width="150px"/>
+			<p>A display that consists of a variety of plants from all over the world. Exhibiting a post-colonial assortment of varied origins, this exhibit reflects the landscape diversity found at UCF.</p>
+			<p></p>
+			<p>Flora: White Frangipani (Plumeria), Loquat (Eriobotrya japonica), Banana (Musa paradisiaca), Chinese Fringe Flower (Loropetalum chinensis), Yellow Anise Tree (Illicium parviflorum).</p>
+		</div>
+    	<div id="reflections_map" class="map_container"></div> 
+	</div>        	
 </div>
 <div data-role="page" data-theme="a" id="sago_palms_landscape">
 	<div data-role="header">
@@ -219,13 +253,49 @@ $("a").live("vmouseup", function() {
 	<div data-role="content" id="containerWrapper">	
 		<div id="sago_palms_landscape_map_info" class="map_info" style="display:none;">
 			<img src="./img/managed_areas/sago-palms/info.png" width="150px"/>
-			<p>This is an eclectic display of plants that are planted purely for horticultural aesthetics.  You don't want to miss the following plants:</p>
-			<p>--Golden Dewdrop, Duranta erecta</p> 
-			<p>Golden Dewdrop is native to the Americas, from Mexico and the West Indies south to Argentina in South America. Its showy blossoms attract butterflies and hummingbirds.</p>
-			<p>--Queen Sago, Cycas Circinalis</p>
-			<p>Though this plant resembles a palm it is actually only distantly related and is called a cycad. Historically, the pulpy stem has been used to make a type of flour; however the queen sago has also been known to cause adverse neurological affects and paralysis. It is a native to equatorial Africa.</p>
+			<p>This is an eclectic display of plants that are planted purely for horticultural aesthetics.There is no central theme to the origin of the plants. Golden Dewdrop is native to the Americas, from Mexico and the West Indies south to Argentina in South America. Its showy blossoms attract butterflies and hummingbirds. Though Queen Sago resembles a palm it is actually a cycad. Historically, the pulpy stem has been used to make a type of flour; however the Queen Sago has also been known to cause adverse neurological affects and paralysis. It is native to equatorial Africa.</p>
+			<p></p>
+			<p>Flora: Golden Dewdrop (Duranta erecta), Queen Sago (Cycas Circinalis).</p>
 		</div>
     	<div id="sago_palms_landscape_map" class="map_container"></div> 
+	</div>	
+</div>
+<div data-role="page" data-theme="a" id="xeric_landscape">
+	<div data-role="header">
+		<h1 id="map_title">Map - Xeric Landscape</h1>
+	</div>
+	<div data-role="content" id="containerWrapper">	
+		<div id="xeric_map_info" class="map_info" style="display:none;">
+			<img src="./img/managed_areas/xeric/info.jpg" width="100px"/>
+			<p>Xeric shrub-lands are a biome characterizes by a dry climate with an average winter rainfall of 10 inches or less a year. Deserts and other hyper-arid ecosystems characterize these climates. The specimen in Xeric landscapes consist mostly of the Neartic desert climate region of northwestern Mexico. Plants adapted to these types of environments are called xerophytes, and include succulents, geophytes, sclerophyllous (leathery-leaved) perennial and annual plants.</p>
+			<p></p>
+			<p>Flora: Agave (Agavoideae Agave), Giant Mexican Sunflower (Tithonia diversifolia), Prickly Pear Cactus (Opuntia).</p>
+		</div>
+    	<div id="xeric_map" class="map_container"></div> 
+	</div>        	
+</div>
+<div data-role="page" data-theme="a" id="arboretum_landscape">
+	<div data-role="header">
+		<h1 id="map_title">Map - UCF Arboretum</h1>
+	</div>
+	<div data-role="content" id="containerWrapper">	
+		<div id="arboretum_landscape_map_info" class="map_info" style="display:none;">
+			<img src="./img/managed_areas/arboretum/info.png" width="150px"/>	
+			<p>Since its founding in 1983, the UCF Arboretum has been a unique feature of the University's campus. With 72 acres of native animal and plant life, the Arboretum is a long-standing symbol of UCF's dedication to educating students and the community about nature while protecting the environment.</p>
+		</div>
+    	<div id="arboretum_landscape_map" class="map_container"></div> 
+	</div>	
+</div>
+<div data-role="page" data-theme="a" id="nature_pavillion">
+	<div data-role="header">
+		<h1 id="map_title">Map - Nature Pavillion</h1>
+	</div>
+	<div data-role="content" id="containerWrapper">	
+		<div id="nature_pavillion_map_info" class="map_info" style="display:none;">
+		<img src="./img/managed_areas/nature-pavillion/info.png" width="150px"/>
+			<p>The Nature Pavilion stands at the south entrance to the 40 acre Natural Area, and provides information about recreation in green spaces on campus. The pavilion was made from recycled materials and its surface edges are pervious concrete, meaning storm water is able to drain through it. The Nature Pavilion is open to the public and available to rent throughout the football season for Gold Zone donors. Groups are required to rent this area. To request this space, please contact Landscape &amp; Natural Resources at <a href="mailto:nature@ucf.edu">nature@ucf.edu</a> or 407-823-3146</p>
+		</div>
+    	<div id="nature_pavillion_map" class="map_container"></div> 
 	</div>	
 </div>
 <div data-role="page" data-theme="a" id="bonsai_house_landscape">
@@ -254,57 +324,6 @@ $("a").live("vmouseup", function() {
     	<div id="community_garden_map" class="map_container"></div> 
 	</div>	
 </div>
-<div data-role="page" data-theme="a" id="cypress_dome">
-	<div data-role="header">
-		<h1 id="map_title">Map - Cypress Dome</h1>
-	</div>
-	<div data-role="content" id="containerWrapper">	
-		<div id="cypress_dome_map_info" class="map_info" style="display:none;">
-			<img src="./img/managed_areas/cypress-dome/info.png" width="150px"/>
-			<div class="infoWindow">
-			<p>Forested wetlands (swamps) that are dominated by bald cypress and/or pond cypress are called cypress domes. Generally these are shallow circular depression wetlands with a vaulted canopy because smaller trees grow in the shallower waters at the outer edge with the taller, older trees growing in the center. Pond cypress trees usually dominates these dome swamps in pine flatwoods with mucky, organic soils. Swamp gum, red maple, sweetbay (magnolia), dahoon holly, swamp bay and slash pine may also be found in the canopy.</p> 
-			<p>Fauna: Moccasin, Swallow Tail Kite, Pileated Woodpecker, Cottonmouth, Salamander.</p>
-			</div>			
-		</div>
-    	<div id="cypress_dome_map" class="map_container"></div> 
-	</div>	
-</div>
-<div data-role="page" data-theme="a" id="mediterranean_landscape">
-	<div data-role="header">
-		<h1 id="map_title">Map - Mediterranean Landscape</h1>
-	</div>
-	<div data-role="content" id="containerWrapper">	
-		<div id="mediterranean_map_info" class="map_info" style="display:none;">
-			<img src="./img/managed_areas/mediterranean/info.png" width="150px"/>
-			<p>A temperate to sub-tropical biome, vegetation types range from forests to woodlands, savannas, shrublands, and grasslands.  "Mosaic" landscapes are common. Much of the woody vegetation in Mediterranean-climate regions is sclerophyll, which means 'hard-leaved' in Greek. Sclerophyll vegetation generally has small, dark leaves covered with a waxy outer layer to retain moisture in the dry summer months of the Mediterranean. Mediterranean eco-regions are semi-arid, and often have poor soils, so they are vulnerable to degradation by human land-use. These regions are also some of the most endangered on the planet, and many eco-regions have suffered tremendous degradation and habitat loss through logging, overgrazing, conversion to agriculture, urbanization, and introduction of exotic species. Many native plants and animals have become extinct or endangered with in these systems.</p>
-		</div>
-    	<div id="mediterranean_map" class="map_container"></div> 
-	</div>	
-</div>
-<div data-role="page" data-theme="a" id="nature_pavillion">
-	<div data-role="header">
-		<h1 id="map_title">Map - Nature Pavillion</h1>
-	</div>
-	<div data-role="content" id="containerWrapper">	
-		<div id="nature_pavillion_map_info" class="map_info" style="display:none;">
-		<img src="./img/managed_areas/nature-pavillion/info.png" width="150px"/>
-			<p>The newly constructed Nature Pavilion accents the south entrance to the 40 acre Natural Area, and provides information about recreational opportunities in the green space on campus. The pavilion was made from recycled materials and its surface edges are pervious concrete, which means storm-water drains through it, instead of resting on top of it. The Pavilion is available to rent throughout the football season for Gold Zone donors. The pavilion is open to the public, however, groups are required to rent this area. To request this space, please contact Landscape &amp; Natural Resources at <a href="mailto:nature@ucf.edu">nature@ucf.edu</a> or 407-823-3146</p>
-		</div>
-    	<div id="nature_pavillion_map" class="map_container"></div> 
-	</div>	
-</div>
-<div data-role="page" data-theme="a" id="reflections_landscape">
-	<div data-role="header">
-		<h1 id="map_title">Map - Reflections</h1>
-	</div>
-	<div data-role="content" id="containerWrapper">	
-		<div id="reflections_map_info" class="map_info" style="display:none;">
-			<img src="./img/managed_areas/reflections-pond/info.png" width="150px"/>
-			<p>This campus landscape includes a variety of plants from all over the world. Exhibiting a post-colonial assortment of varied origins, this exhibit reflects the landscape diversity found at UCF.</p>
-		</div>
-    	<div id="reflections_map" class="map_container"></div> 
-	</div>        	
-</div>
 <div data-role="page" data-theme="a" id="skunk_vine">
 	<div data-role="header">
 		<h1 id="map_title">Map - Skunk Vine</h1>
@@ -330,20 +349,6 @@ $("a").live("vmouseup", function() {
     	<div id="wild_flower_map" class="map_container"></div> 
 	</div>	
 </div>
-<div data-role="page" data-theme="a" id="xeric_landscape">
-	<div data-role="header">
-		<h1 id="map_title">Map - Xeric Landscape</h1>
-	</div>
-	<div data-role="content" id="containerWrapper">	
-		<div id="xeric_map_info" class="map_info" style="display:none;">
-			<img src="./img/managed_areas/xeric/info.jpg" width="100px"/>
-			<p>Xeric shrub-lands are a biome characterized by a dry climate, with an average winter rainfall of 10 inches or less a year. Deserts and other hyper-arid ecosystems characterize these climates. The specimen you see here consists mostly of the Neartic desert climate region of northwestern Mexico. Xeric shrublands also occur in subtropical, tropical and temperate climate regions, with soils of sandy or rocky composition and a low level of organic material. Saline or alkaline soils are most common. Plants adapted to these types of environments are called xerophytes, and include succulents, geophytes, sclerophyllous (leathery-leaved) perennial and annual plants.</p>
-		</div>
-    	<div id="xeric_map" class="map_container"></div> 
-	</div>        	
-</div>
-
-
 <div data-role="page" data-theme="a" id="energy_page">
 
 	<div data-role="header">
